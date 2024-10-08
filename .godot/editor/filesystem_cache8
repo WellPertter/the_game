@@ -1,3 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728346871
-icon.svg::CompressedTexture2D::4190619230262708800::1728346863::1728346873::1::::<><>::
+::res://::1728395184
+icon.svg::CompressedTexture2D::4190619230262708800::1728383850::1728395188::1::::<><>::
+README.txt::TextFile::-1::1728383850::0::1::::<><>::
+::res://imagens/::1728383868
+::res://imagens/esboço/::1728385189
+login_and_ini_game_screen.png::CompressedTexture2D::8602860297814655306::1728385189::1728395188::1::::<><>::

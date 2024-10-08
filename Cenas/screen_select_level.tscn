@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://pwrxwfantci7"]
+
+[ext_resource type="PackedScene" uid="uid://bvv6uc1go33cp" path="res://Cenas/screen_player_labrinth.tscn" id="1_hukpw"]
+
+[node name="screen_select_level" type="Node2D"]
+
+[node name="PlayerLabrinth" parent="." instance=ExtResource("1_hukpw")]
+position = Vector2(105, 381)

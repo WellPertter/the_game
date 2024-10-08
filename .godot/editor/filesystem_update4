@@ -1,0 +1,6 @@
+res://Cenas/screen_init.tscn
+res://Cenas/screen_select_level.tscn
+res://Cenas/scrypts/screen_init.gd
+res://Cenas/screen_player_labrinth.tscn
+res://Cenas/scrypts/screen_player_labrinth.gd
+res://Cenas/screen_tile_map.tscn

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://bvv6uc1go33cp"]
+
+[ext_resource type="Texture2D" uid="uid://b0x75e0vqsfb1" path="res://icon.svg" id="1_2ns4h"]
+[ext_resource type="Script" path="res://Cenas/scrypts/screen_player_labrinth.gd" id="1_osacl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pr7i4"]
+size = Vector2(20, 21)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yoddp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_2ns4h")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="PlayerLabrinth" type="CharacterBody2D"]
+position = Vector2(184, 200)
+script = ExtResource("1_osacl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_pr7i4")
+metadata/_edit_lock_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, 0)
+sprite_frames = SubResource("SpriteFrames_yoddp")
+metadata/_edit_lock_ = true
