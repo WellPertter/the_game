@@ -1,7 +1,29 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728395184
+::res://::1728494584
 icon.svg::CompressedTexture2D::4190619230262708800::1728383850::1728395188::1::::<><>::
 README.txt::TextFile::-1::1728383850::0::1::::<><>::
-::res://imagens/::1728383868
-::res://imagens/esboço/::1728385189
+::res://Cenas/::1728495044
+screen_init.tscn::PackedScene::3597480041043869229::1728492953::0::1::::<><>::res://Cenas/scrypts/screen_init.gd
+screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728495044::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://cep3bnfg31602::::res://imagens/basic images/labirith32x32.png
+screen_select_level.tscn::PackedScene::1099323390552490336::1728492953::0::1::::<><>::uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_tile_map.tscn::PackedScene::8146387996594500330::1728494584::0::1::::<><>::uid://4cuo7rfaaeux::::res://imagens/basic images/solo32x32.png
+::res://Cenas/scrypts/::1728492946
+screen_init.gd::GDScript::-1::1728492946::0::1::::<>Node2D<>::
+screen_player_labrinth.gd::GDScript::-1::1728411819::0::1::::<>CharacterBody2D<>::
+::res://imagens/::1728472200
+::res://imagens/Background/::1728412691
+Blue.png::CompressedTexture2D::5758328415873221530::1566236978::1728412691::1::::<><>::
+Brown.png::CompressedTexture2D::8153432569484452382::1566236896::1728412691::1::::<><>::
+Gray.png::CompressedTexture2D::6301886403973547721::1564947596::1728412691::1::::<><>::
+Green.png::CompressedTexture2D::2186073823401439300::1566236952::1728412691::1::::<><>::
+Pink.png::CompressedTexture2D::5535775736072603160::1566236966::1728412691::1::::<><>::
+Purple.png::CompressedTexture2D::4373980096123568420::1566236936::1728412691::1::::<><>::
+Yellow.png::CompressedTexture2D::8066002237000575277::1566237954::1728412691::1::::<><>::
+::res://imagens/basic images/::1728495166
+32x32inwhite - Copia (2).png::CompressedTexture2D::4321567804271053760::1728471749::1728472207::1::::<><>::
+32x32inwhite.png::CompressedTexture2D::2102691613394372121::1728471749::1728472207::1::::<><>::
+labirith32x32.png::CompressedTexture2D::5086264960679256697::1728472160::1728472207::1::::<><>::
+labirith64x32-parado.png::CompressedTexture2D::5811834871800790657::1728495152::1728495170::1::::<><>::
+solo32x32.png::CompressedTexture2D::2040846269217118639::1728472793::1728472837::1::::<><>::
+::res://imagens/esboço/::1728395188
 login_and_ini_game_screen.png::CompressedTexture2D::8602860297814655306::1728385189::1728395188::1::::<><>::

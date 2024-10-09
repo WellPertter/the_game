@@ -5,4 +5,4 @@
 [node name="screen_select_level" type="Node2D"]
 
 [node name="PlayerLabrinth" parent="." instance=ExtResource("1_hukpw")]
-position = Vector2(105, 381)
+position = Vector2(218, 205)
