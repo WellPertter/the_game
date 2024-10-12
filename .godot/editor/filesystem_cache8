@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728732211
+::res://::1728761617
 export_presets.cfg::TextFile::-1::1728697158::0::1::::<><>::
 icon.svg::CompressedTexture2D::4190619230262708800::1728514503::1728518098::1::::<><>::
 README.txt::TextFile::-1::1728514503::0::1::::<><>::
@@ -84,14 +84,16 @@ Standing (32 x 32).png::CompressedTexture2D::3439264752115920780::1597584142::17
 Walking (32 x 32).png::CompressedTexture2D::475257270010731763::1597584260::1728686115::1::::<><>::
 ::res://basic_images_2/background/::1728686115
 Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::7411379510980237634::1641908818::1728686115::1::::<><>::
-::res://Cenas/::1728692808
-screen_init.tscn::PackedScene::3597480041043869229::1728692808::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
-screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728685373::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://co2kcolgk8ueb::::res://imagens/basic images/labirith64x32-parado.png
-screen_select_level.tscn::PackedScene::1099323390552490336::1728692370::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
-screen_tile_map.tscn::PackedScene::8146387996594500330::1728692388::0::1::::<><>::uid://cj0tkq2vdoeix::::res://basic_images_2/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png<>uid://dc3073loice0x::::res://basic_images_2/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://djdkp1ho223oh::::res://basic_images_2/1 - Grassland/Background parts/4 - Cloud_cover_2.png
-::res://Cenas/scrypts/::1728685374
+::res://Cenas/::1728736301
+screen_init.tscn::PackedScene::3597480041043869229::1728733887::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
+screen_level_1.tscn::PackedScene::2281642321019786675::1728736301::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728732315::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://co2kcolgk8ueb::::res://imagens/basic images/labirith64x32-parado.png
+screen_select_level.gd::GDScript::-1::1728733887::0::1::::<>Node2D<>::
+screen_select_level.tscn::PackedScene::1099323390552490336::1728736301::0::1::::<><>::res://Cenas/screen_select_level.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_tile_map.tscn::PackedScene::8146387996594500330::1728732518::0::1::::<><>::uid://cj0tkq2vdoeix::::res://basic_images_2/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png<>uid://dc3073loice0x::::res://basic_images_2/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://djdkp1ho223oh::::res://basic_images_2/1 - Grassland/Background parts/4 - Cloud_cover_2.png
+::res://Cenas/scrypts/::1728733851
 screen_init.gd::GDScript::-1::1728514503::0::1::::<>Node2D<>::
-screen_player_labrinth.gd::GDScript::-1::1728685374::0::1::::<>CharacterBody2D<>::
+screen_player_labrinth.gd::GDScript::-1::1728733851::0::1::::<>CharacterBody2D<>::
 ::res://imagens/::1728514503
 ::res://imagens/Background/::1728518098
 Blue.png::CompressedTexture2D::5758328415873221530::1728514503::1728518098::1::::<><>::
