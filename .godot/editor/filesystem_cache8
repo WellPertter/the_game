@@ -1,21 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728686108
+::res://::1728693333
+export_presets.cfg::TextFile::-1::1728692787::0::1::::<><>::
 icon.svg::CompressedTexture2D::4190619230262708800::1728514503::1728518098::1::::<><>::
 README.txt::TextFile::-1::1728514503::0::1::::<><>::
-::res://basic_images_2/::1728686085
-LICENSE.txt::TextFile::-1::1594744344::0::1::::<><>::
-::res://basic_images_2/1 - Grassland/::1594737126
+::res://basic_images_2/::1728689160
+::res://basic_images_2/1 - Grassland/::1728686116
 Extra_plants (16 x 16).png::CompressedTexture2D::7451541953349359459::1594737126::1728686116::1::::<><>::
 Grassland_entities (16 x 16).png::CompressedTexture2D::3808093206642863697::1594733800::1728686116::1::::<><>::
 Terrain (16 x 16).png::CompressedTexture2D::6680774964379083409::1594733362::1728686116::1::::<><>::
-::res://basic_images_2/1 - Grassland/Background parts/::1594665132
+::res://basic_images_2/1 - Grassland/Background parts/::1728686116
 _Complete_static_BG_(288 x 208).png::CompressedTexture2D::5457322767823629367::1594664978::1728686116::1::::<><>::
 1 - Foreground_scenery.png::CompressedTexture2D::888949113870810598::1594664942::1728686116::1::::<><>::
 2 - Hills.png::CompressedTexture2D::6186558876606840270::1594664932::1728686116::1::::<><>::
 3 - Cloud_cover_1.png::CompressedTexture2D::7359018873986683273::1594664922::1728686116::1::::<><>::
 4 - Cloud_cover_2.png::CompressedTexture2D::7797790111014017755::1594664916::1728686116::1::::<><>::
 5 - Sky_color.png::CompressedTexture2D::6880289850404448670::1594664886::1728686116::1::::<><>::
-::res://basic_images_2/1 - Penguin/::1597344634
+::res://basic_images_2/1 - Penguin/::1728686116
 Belly_Sliding (16 x 16).png::CompressedTexture2D::109610082168468503::1597344382::1728686116::1::::<><>::
 Blink (16 x 16).png::CompressedTexture2D::6635554477660175838::1597344204::1728686116::1::::<><>::
 Ducking (16 x 16).png::CompressedTexture2D::2688240477950274846::1597344634::1728686116::1::::<><>::
@@ -32,7 +32,7 @@ Surprised (16 x 16).png::CompressedTexture2D::9082594397958065816::1597344610::1
 Swimming (16 x 16).png::CompressedTexture2D::6038124869173038512::1597344410::1728686116::1::::<><>::
 Victory_Dance (16 x 16).png::CompressedTexture2D::2949221007879942333::1597344240::1728686116::1::::<><>::
 Waddling (16 x 16).png::CompressedTexture2D::5477486114372418641::1597344348::1728686116::1::::<><>::
-::res://basic_images_2/2 - Fairy/::1597347938
+::res://basic_images_2/2 - Fairy/::1728686116
 Charging_Magic_Flying (32 x 32).png::CompressedTexture2D::8928505060104495085::1597347616::1728686116::1::::<><>::
 Flying_Forward_Movement (32 x 32).png::CompressedTexture2D::6912908188166688901::1597347772::1728686116::1::::<><>::
 Hurt (32 x 32).png::CompressedTexture2D::9185582025269401218::1597347700::1728686116::1::::<><>::
@@ -42,7 +42,7 @@ Magic_Attack_Release (32 x 32).png::CompressedTexture2D::5114993434601392062::15
 Magic_Charged_Pellet (32 x 32).png::CompressedTexture2D::2037144734818002544::1597347840::1728686116::1::::<><>::
 Magic_Pellet (32 x 32).png::CompressedTexture2D::2991137670585638686::1597347808::1728686116::1::::<><>::
 Magic_Sparkle_Trail (32 x 32).png::CompressedTexture2D::436875449020323557::1597347938::1728686116::1::::<><>::
-::res://basic_images_2/3 - Skeleton/::1597364390
+::res://basic_images_2/3 - Skeleton/::1728686116
 Bone_Pile (32 x 32).png::CompressedTexture2D::3053404572871275276::1597364260::1728686116::1::::<><>::
 Bone_Pile_Wakeup (32 x 32).png::CompressedTexture2D::649311842301024798::1597364346::1728686116::1::::<><>::
 Bone_Toss (32 x 32).png::CompressedTexture2D::6604227588112982825::1597364002::1728686115::1::::<><>::
@@ -58,17 +58,17 @@ Standing (32 x 32).png::CompressedTexture2D::5223454603762756495::1597363800::17
 Standing_Idle (32 x 32).png::CompressedTexture2D::9198978877848155661::1597363836::1728686115::1::::<><>::
 Standing_Wakeup (32 x 32).png::CompressedTexture2D::2926255975230040371::1597363756::1728686115::1::::<><>::
 Twitching_Idle (32 x 32).png::CompressedTexture2D::93867080475076808::1597363884::1728686115::1::::<><>::
-::res://basic_images_2/3 - Tropics/::1594735162
+::res://basic_images_2/3 - Tropics/::1728686116
 Terrain (16 x 16).png::CompressedTexture2D::6022844879200714482::1594734892::1728686116::1::::<><>::
 Tropics_entities (16 x 16).png::CompressedTexture2D::4518798860807959728::1594736688::1728686116::1::::<><>::
-::res://basic_images_2/3 - Tropics/Background parts/::1594669944
+::res://basic_images_2/3 - Tropics/Background parts/::1728686116
 _Complete_static_BG_(288 x 208).png::CompressedTexture2D::2074096510423145226::1594669632::1728686115::1::::<><>::
 1 - Waters_version_1.png::CompressedTexture2D::281944351804413762::1594669880::1728686115::1::::<><>::
 2 - Waters_version_2.png::CompressedTexture2D::2306731572228240780::1594669900::1728686115::1::::<><>::
 3 - Floating_clouds.png::CompressedTexture2D::2009980928622992424::1594669920::1728686115::1::::<><>::
 4 - Background_clouds.png::CompressedTexture2D::3195158707033802337::1594669932::1728686116::1::::<><>::
 5 - Sky_color.png::CompressedTexture2D::7536462703631572532::1594669944::1728686116::1::::<><>::
-::res://basic_images_2/4 - Orange/::1597584554
+::res://basic_images_2/4 - Orange/::1728686116
 Blink (32 x 32).png::CompressedTexture2D::7111609640641625641::1597584216::1728686116::1::::<><>::
 Falling (32 x 32).png::CompressedTexture2D::171380233431490420::1597584330::1728686116::1::::<><>::
 Hurt (32 x 32).png::CompressedTexture2D::41751075154066450::1597584286::1728686116::1::::<><>::
@@ -82,13 +82,13 @@ Smacked (32 x 32).png::CompressedTexture2D::4093191417251949539::1597584554::172
 Squished (32 x 32).png::CompressedTexture2D::5670745477039266756::1597584436::1728686115::1::::<><>::
 Standing (32 x 32).png::CompressedTexture2D::3439264752115920780::1597584142::1728686115::1::::<><>::
 Walking (32 x 32).png::CompressedTexture2D::475257270010731763::1597584260::1728686115::1::::<><>::
-::res://basic_images_2/background/::1728686018
+::res://basic_images_2/background/::1728686115
 Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::7411379510980237634::1641908818::1728686115::1::::<><>::
-::res://Cenas/::1728685374
-screen_init.tscn::PackedScene::3597480041043869229::1728684696::0::1::::<><>::res://Cenas/scrypts/screen_init.gd
+::res://Cenas/::1728692808
+screen_init.tscn::PackedScene::3597480041043869229::1728692808::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
 screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728685373::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://co2kcolgk8ueb::::res://imagens/basic images/labirith64x32-parado.png
-screen_select_level.tscn::PackedScene::1099323390552490336::1728685374::0::1::::<><>::uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
-screen_tile_map.tscn::PackedScene::8146387996594500330::1728514503::0::1::::<><>::uid://4cuo7rfaaeux::::res://imagens/basic images/solo32x32.png
+screen_select_level.tscn::PackedScene::1099323390552490336::1728692370::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_tile_map.tscn::PackedScene::8146387996594500330::1728692388::0::1::::<><>::uid://cj0tkq2vdoeix::::res://basic_images_2/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png<>uid://dc3073loice0x::::res://basic_images_2/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://djdkp1ho223oh::::res://basic_images_2/1 - Grassland/Background parts/4 - Cloud_cover_2.png
 ::res://Cenas/scrypts/::1728685374
 screen_init.gd::GDScript::-1::1728514503::0::1::::<>Node2D<>::
 screen_player_labrinth.gd::GDScript::-1::1728685374::0::1::::<>CharacterBody2D<>::

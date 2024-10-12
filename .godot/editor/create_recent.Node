@@ -1,5 +1,6 @@
-TileMapLayer
 Node
+CanvasGroup
+TileMapLayer
 Node2D
 TileMap
 StaticBody2D
@@ -11,4 +12,3 @@ Area2D
 AnimatedSprite3D
 CharacterBody2D
 Label
-Button
