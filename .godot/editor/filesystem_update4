@@ -1,2 +1,5 @@
-res://Cenas/screen_select_level.tscn
 res://Cenas/screen_level_1.tscn
+res://Cenas/scrypts/screen_level_1.gd
+res://Cenas/screen_select_level.tscn
+res://Cenas/screen_player_labrinth.tscn
+res://Cenas/scrypts/screen_player_labrinth.gd

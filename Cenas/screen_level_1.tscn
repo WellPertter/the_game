@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=4 uid="uid://7riky6j8e76f"]
+[gd_scene load_steps=4 format=4 uid="uid://7riky6j8e76f"]
 
 [ext_resource type="PackedScene" uid="uid://docf25bjp2woo" path="res://Cenas/screen_tile_map.tscn" id="1_8hqyc"]
+[ext_resource type="Script" path="res://Cenas/scrypts/screen_level_1.gd" id="1_e35yw"]
 [ext_resource type="PackedScene" uid="uid://bvv6uc1go33cp" path="res://Cenas/screen_player_labrinth.tscn" id="2_rx1dx"]
 
 [node name="screen_level_1" type="Node2D"]
+script = ExtResource("1_e35yw")
 
 [node name="background" parent="." instance=ExtResource("1_8hqyc")]
 scale = Vector2(3, 3)

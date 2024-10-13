@@ -1,31 +1,113 @@
-[gd_scene load_steps=7 format=3 uid="uid://bvv6uc1go33cp"]
+[gd_scene load_steps=19 format=3 uid="uid://bvv6uc1go33cp"]
 
 [ext_resource type="Script" path="res://Cenas/scrypts/screen_player_labrinth.gd" id="1_osacl"]
-[ext_resource type="Texture2D" uid="uid://co2kcolgk8ueb" path="res://imagens/basic images/labirith64x32-parado.png" id="2_lu8fc"]
+[ext_resource type="Texture2D" uid="uid://c5o2vsps40xux" path="res://basic_images_2/1 - Penguin/Idle (16 x 16).png" id="2_df4m2"]
+[ext_resource type="Texture2D" uid="uid://deacecy5b0qhf" path="res://basic_images_2/1 - Penguin/Jump (16 x 16).png" id="3_sdudu"]
+[ext_resource type="Texture2D" uid="uid://ckblnp2xeh2j2" path="res://basic_images_2/1 - Penguin/Waddling (16 x 16).png" id="4_o4ef7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pr7i4"]
 size = Vector2(32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_u3uhr"]
-atlas = ExtResource("2_lu8fc")
-region = Rect2(0, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="AtlasTexture_ssd2d"]
+atlas = ExtResource("2_df4m2")
+region = Rect2(0, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ebgy8"]
-atlas = ExtResource("2_lu8fc")
-region = Rect2(32, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="AtlasTexture_1fxgc"]
+atlas = ExtResource("2_df4m2")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4cm6y"]
+atlas = ExtResource("2_df4m2")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ggsqk"]
+atlas = ExtResource("2_df4m2")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vih3w"]
+atlas = ExtResource("2_df4m2")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lh7h7"]
+atlas = ExtResource("3_sdudu")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llbbi"]
+atlas = ExtResource("4_o4ef7")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2pf5c"]
+atlas = ExtResource("4_o4ef7")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3lble"]
+atlas = ExtResource("4_o4ef7")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_410yy"]
+atlas = ExtResource("4_o4ef7")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l4l8e"]
+atlas = ExtResource("4_o4ef7")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8fic1"]
+atlas = ExtResource("4_o4ef7")
+region = Rect2(80, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_r2mak"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_u3uhr")
+"texture": SubResource("AtlasTexture_ssd2d")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ebgy8")
+"texture": SubResource("AtlasTexture_1fxgc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4cm6y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ggsqk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vih3w")
 }],
 "loop": true,
-"name": &"Parado",
+"name": &"idle",
 "speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lh7h7")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llbbi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2pf5c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3lble")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_410yy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l4l8e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8fic1")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 7.0
 }]
 
 [node name="PlayerLabrinth" type="CharacterBody2D"]
@@ -36,9 +118,9 @@ script = ExtResource("1_osacl")
 shape = SubResource("RectangleShape2D_pr7i4")
 metadata/_edit_lock_ = true
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Image" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_r2mak")
-animation = &"Parado"
-autoplay = "Parado"
-frame_progress = 0.117043
+animation = &"walking"
+autoplay = "idle"
 metadata/_edit_lock_ = true
