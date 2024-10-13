@@ -22,6 +22,7 @@ mouse_force_pass_scroll_events = false
 text = "Play
 "
 flat = true
+metadata/_edit_use_anchors_ = true
 
 [node name="lblName" type="Label" parent="."]
 modulate = Color(1, 0, 0, 1)
@@ -30,6 +31,7 @@ offset_top = 573.0
 offset_right = 89.0
 offset_bottom = 596.0
 text = "Version 1.0"
+metadata/_edit_use_anchors_ = true
 
 [node name="lblName2" type="Label" parent="."]
 modulate = Color(1, 0, 0, 1)
@@ -41,6 +43,7 @@ theme_override_font_sizes/font_size = 11
 text = "Arte:
 Engine: Godot
 Desenvolvimento: José Arthur"
+metadata/_edit_use_anchors_ = true
 
 [connection signal="pressed" from="btnPlay" to="." method="_on_btn_play_pressed"]
 

@@ -123,4 +123,5 @@ scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_r2mak")
 animation = &"walking"
 autoplay = "idle"
+frame_progress = 0.97961
 metadata/_edit_lock_ = true
