@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728830222
-export_presets.cfg::TextFile::-1::1728781179::0::1::::<><>::
+::res://::1728945736
+export_presets.cfg::TextFile::-1::1728908150::0::1::::<><>::
 icon.svg::CompressedTexture2D::4190619230262708800::1728514503::1728518098::1::::<><>::
 README.txt::TextFile::-1::1728514503::0::1::::<><>::
 ::res://basic_images_2/::1728689160
@@ -84,13 +84,13 @@ Standing (32 x 32).png::CompressedTexture2D::3439264752115920780::1597584142::17
 Walking (32 x 32).png::CompressedTexture2D::475257270010731763::1597584260::1728686115::1::::<><>::
 ::res://basic_images_2/background/::1728686115
 Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::7411379510980237634::1641908818::1728686115::1::::<><>::
-::res://Cenas/::1728830270
-screen_init.tscn::PackedScene::3597480041043869229::1728733887::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
-screen_level_1.tscn::PackedScene::2281642321019786675::1728781712::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>res://Cenas/scrypts/screen_level_1.gd<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
-screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728830270::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://c5o2vsps40xux::::res://basic_images_2/1 - Penguin/Idle (16 x 16).png<>uid://deacecy5b0qhf::::res://basic_images_2/1 - Penguin/Jump (16 x 16).png<>uid://ckblnp2xeh2j2::::res://basic_images_2/1 - Penguin/Waddling (16 x 16).png
+::res://Cenas/::1728945715
+screen_init.tscn::PackedScene::3597480041043869229::1728945715::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
+screen_level_1.tscn::PackedScene::2281642321019786675::1728924456::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>res://Cenas/scrypts/screen_level_1.gd<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728924455::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://c5o2vsps40xux::::res://basic_images_2/1 - Penguin/Idle (16 x 16).png<>uid://deacecy5b0qhf::::res://basic_images_2/1 - Penguin/Jump (16 x 16).png<>uid://ckblnp2xeh2j2::::res://basic_images_2/1 - Penguin/Waddling (16 x 16).png
 screen_select_level.gd::GDScript::-1::1728733887::0::1::::<>Node2D<>::
-screen_select_level.tscn::PackedScene::1099323390552490336::1728781711::0::1::::<><>::res://Cenas/screen_select_level.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
-screen_tile_map.tscn::PackedScene::8146387996594500330::1728732518::0::1::::<><>::uid://cj0tkq2vdoeix::::res://basic_images_2/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png<>uid://dc3073loice0x::::res://basic_images_2/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://djdkp1ho223oh::::res://basic_images_2/1 - Grassland/Background parts/4 - Cloud_cover_2.png
+screen_select_level.tscn::PackedScene::1099323390552490336::1728831659::0::1::::<><>::res://Cenas/screen_select_level.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_tile_map.tscn::PackedScene::8146387996594500330::1728837021::0::1::::<><>::uid://cj0tkq2vdoeix::::res://basic_images_2/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png<>uid://dc3073loice0x::::res://basic_images_2/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://djdkp1ho223oh::::res://basic_images_2/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>uid://ohdub5fjaafr::::res://imagens/basic images/genius.png
 ::res://Cenas/scrypts/::1728782054
 screen_init.gd::GDScript::-1::1728514503::0::1::::<>Node2D<>::
 screen_level_1.gd::GDScript::-1::1728781711::0::1::::<>Node2D<>::
@@ -104,13 +104,14 @@ Green.png::CompressedTexture2D::2186073823401439300::1728514503::1728518098::1::
 Pink.png::CompressedTexture2D::5535775736072603160::1728514503::1728518098::1::::<><>::
 Purple.png::CompressedTexture2D::4373980096123568420::1728514503::1728518098::1::::<><>::
 Yellow.png::CompressedTexture2D::8066002237000575277::1728514503::1728518098::1::::<><>::
-::res://imagens/basic images/::1728830804
+::res://imagens/basic images/::1728838250
 32x32inwhite - Copia (2).png::CompressedTexture2D::4321567804271053760::1728514503::1728518098::1::::<><>::
 32x32inwhite.png::CompressedTexture2D::2102691613394372121::1728514503::1728518098::1::::<><>::
-genius.png::CompressedTexture2D::997312421173956075::1728830804::1728830809::1::::<><>::
+genius.png::CompressedTexture2D::997312421173956075::1728837616::1728838250::1::::<><>::
 image_the_game.png::CompressedTexture2D::8053546587072946136::1728516848::1728518098::1::::<><>::
 labirith32x32.png::CompressedTexture2D::5086264960679256697::1728514503::1728518098::1::::<><>::
 labirith64x32-parado.png::CompressedTexture2D::5811834871800790657::1728514503::1728518098::1::::<><>::
 solo32x32.png::CompressedTexture2D::2040846269217118639::1728514503::1728518098::1::::<><>::
 ::res://imagens/esboço/::1728518098
 login_and_ini_game_screen.png::CompressedTexture2D::8602860297814655306::1728514503::1728518098::1::::<><>::
+::res://video/::1728945653
