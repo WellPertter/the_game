@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729009808
+::res://::1729012897
 export_presets.cfg::TextFile::-1::1728989092::0::1::::<><>::
 icon.svg::CompressedTexture2D::4190619230262708800::1728989092::1729008918::1::::<><>::
 README.txt::TextFile::-1::1728989092::0::1::::<><>::
@@ -84,9 +84,9 @@ Standing (32 x 32).png::CompressedTexture2D::3439264752115920780::1728989092::17
 Walking (32 x 32).png::CompressedTexture2D::475257270010731763::1728989092::1729008919::1::::<><>::
 ::res://basic_images_2/background/::1729008919
 Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::7411379510980237634::1728989092::1729008919::1::::<><>::
-::res://Cenas/::1729009738
-screen_init.tscn::PackedScene::3597480041043869229::1729009710::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
-screen_level_1.tscn::PackedScene::2281642321019786675::1729009738::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>res://Cenas/scrypts/screen_level_1.gd<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+::res://Cenas/::1729009830
+screen_init.tscn::PackedScene::3597480041043869229::1729009830::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
+screen_level_1.tscn::PackedScene::2281642321019786675::1729009830::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>res://Cenas/scrypts/screen_level_1.gd<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
 screen_player_labrinth.tscn::PackedScene::3905656421084964035::1728989092::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://c5o2vsps40xux::::res://basic_images_2/1 - Penguin/Idle (16 x 16).png<>uid://deacecy5b0qhf::::res://basic_images_2/1 - Penguin/Jump (16 x 16).png<>uid://ckblnp2xeh2j2::::res://basic_images_2/1 - Penguin/Waddling (16 x 16).png
 screen_select_level.gd::GDScript::-1::1728989092::0::1::::<>Node2D<>::
 screen_select_level.tscn::PackedScene::1099323390552490336::1728989092::0::1::::<><>::res://Cenas/screen_select_level.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn

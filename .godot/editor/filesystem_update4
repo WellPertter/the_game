@@ -1,2 +1,3 @@
-res://Cenas/screen_init.tscn
 res://Cenas/screen_level_1.tscn
+res://Cenas/screen_init.tscn
+res://Cenas/scrypts/screen_level_1.gd
