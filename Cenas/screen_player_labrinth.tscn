@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://ckblnp2xeh2j2" path="res://basic_images_2/1 - Penguin/Waddling (16 x 16).png" id="4_o4ef7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pr7i4"]
-size = Vector2(32, 32)
+size = Vector2(28, 29)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ssd2d"]
 atlas = ExtResource("2_df4m2")
@@ -115,6 +115,7 @@ position = Vector2(183, 204)
 script = ExtResource("1_osacl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_pr7i4")
 metadata/_edit_lock_ = true
 
