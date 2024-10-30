@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1729249803
+::res://::1730305824
 export_presets.cfg::TextFile::-1::1728989092::0::1::::<><>::
 icon.svg::CompressedTexture2D::4190619230262708800::1728989092::1729095922::1::::<><>::
 README.txt::TextFile::-1::1728989092::0::1::::<><>::
@@ -84,16 +84,18 @@ Standing (32 x 32).png::CompressedTexture2D::3439264752115920780::1728989092::17
 Walking (32 x 32).png::CompressedTexture2D::475257270010731763::1728989092::1729095922::1::::<><>::
 ::res://basic_images_2/background/::1729095922
 Space_BG (2 frames) (64 x 64).png::CompressedTexture2D::7411379510980237634::1728989092::1729095922::1::::<><>::
-::res://Cenas/::1729097982
-screen_init.tscn::PackedScene::3597480041043869229::1729097887::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
-screen_level_1.tscn::PackedScene::2281642321019786675::1729097982::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>res://Cenas/scrypts/screen_level_1.gd<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+::res://Cenas/::1730305681
+screen_init.tscn::PackedScene::3597480041043869229::1730305503::0::1::::<><>::res://Cenas/scrypts/screen_init.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
+screen_level_1.tscn::PackedScene::2281642321019786675::1730305503::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>res://Cenas/scrypts/screen_level_1.gd<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
+screen_level_2.tscn::PackedScene::729769376139635079::1730305680::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
+screen_level_3.tscn::PackedScene::1826105545879409684::1730305523::0::1::::<><>::uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn
 screen_player_labrinth.tscn::PackedScene::3905656421084964035::1729096641::0::1::::<><>::res://Cenas/scrypts/screen_player_labrinth.gd<>uid://c5o2vsps40xux::::res://basic_images_2/1 - Penguin/Idle (16 x 16).png<>uid://deacecy5b0qhf::::res://basic_images_2/1 - Penguin/Jump (16 x 16).png<>uid://ckblnp2xeh2j2::::res://basic_images_2/1 - Penguin/Waddling (16 x 16).png
 screen_select_level.gd::GDScript::-1::1728989092::0::1::::<>Node2D<>::
 screen_select_level.tscn::PackedScene::1099323390552490336::1728989092::0::1::::<><>::res://Cenas/screen_select_level.gd<>uid://docf25bjp2woo::::res://Cenas/screen_tile_map.tscn<>uid://bvv6uc1go33cp::::res://Cenas/screen_player_labrinth.tscn
 screen_tile_map.tscn::PackedScene::8146387996594500330::1728989092::0::1::::<><>::uid://cj0tkq2vdoeix::::res://basic_images_2/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png<>uid://dc3073loice0x::::res://basic_images_2/1 - Grassland/Background parts/3 - Cloud_cover_1.png<>uid://djdkp1ho223oh::::res://basic_images_2/1 - Grassland/Background parts/4 - Cloud_cover_2.png<>uid://ohdub5fjaafr::::res://imagens/basic images/genius.png
-::res://Cenas/scrypts/::1729097671
+::res://Cenas/scrypts/::1730305362
 screen_init.gd::GDScript::-1::1728989092::0::1::::<>Node2D<>::
-screen_level_1.gd::GDScript::-1::1729097671::0::1::::<>Node2D<>::
+screen_level_1.gd::GDScript::-1::1730305362::0::1::::<>Node2D<>::
 screen_player_labrinth.gd::GDScript::-1::1728989092::0::1::::<>CharacterBody2D<>::
 ::res://imagens/::1728989092
 ::res://imagens/Background/::1729095922
